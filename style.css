@@ -1,3 +1,32 @@
+.about-us{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "about-us-cover about-us-cover"
+    "about-information about-image";
+}
+
+.about-us-cover{
+    grid-area: about-us-cover;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #119da4;
+}
+
+.about-information{
+    grid-area: about-information;
+    padding: 15px;
+    background-color: #dddddd;
+}
+
+.about-image{
+    grid-area: about-image;
+    text-align: center;
+    padding: 15px;
+    background-color: #dddddd;
+}
 
 .contact-body{
     background-image: url("images/contact.jpg");
@@ -6,12 +35,6 @@
     background-color: black;
 }
 
-.contact-box{
-    background-image: url("images/contact.jpg");
-    background-size: cover;
-    background-repeat: repeat;
-    background-color: black;
-}
 .footer {
     position: fixed;
     bottom: 0;
@@ -20,9 +43,16 @@
     line-height: 40px; /* Vertically center the text there */
     background-color: #119da4;
     color: #d7d9ce;
-  }
-  
-  
-  .google-form{
+}
+
+.school-logo{
+    text-align: center;
+}
+
+body{
+    background-color: #dddddd;
+}
+
+.google-form{
     text-align:center;
 }
